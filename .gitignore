@@ -1,0 +1,12 @@
+# Node.js dependencies
+/node_modules
+
+# TypeScript output directory
+/dist
+
+# macOS specific files
+.DS_Store
+
+# Yarn files
+yarn.lock
+
