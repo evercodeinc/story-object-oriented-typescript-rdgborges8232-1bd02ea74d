@@ -8,4 +8,12 @@ export class Product {
       this.name = name;
       this.price = price;
     }
+
+    increasePrice(percentage: number) {
+        this.price += this.price * (percentage / 100);
+      }
+    
+      decreasePrice(percentage: number) {
+        this.price -= this.price * (percentage / 100);
+      }
 }
